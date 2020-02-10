@@ -191,7 +191,7 @@ public class CustomHashMap<K,V> extends HashMap<K,V> {
     /**
      * Associates the specified value with the specified key in this map.
      * If the map previously contained a mapping for the key, the old
-     * value is replaced.
+     * value is replaced. Key should be unique wheares value can be anything
      */
     public V put(K key, V value) {
         if (key == null)
